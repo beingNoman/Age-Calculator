@@ -14,20 +14,22 @@
 
 <body>
     <div class="container mt-5">
+        <h1 class="text-center p-1 mb-5 text-light bg-primary col-12 col-md-6 offset-md-3">Simple Age Calculator
+        </h1>
         <div class="row p-1 mb-3">
-            <div class="col-6 col-md-2 offset-md-3 text-right">Your Birth Date:</div>
+            <div class="col-6 col-md-2 offset-md-3 text-right p-1">Your Birth Date:</div>
             <div class="col-6 col-md-4">
-                <input type="date" id="birth_date">
+                <input type="date" id="birth_date" class="border border-success p-1 text-uppercase">
             </div>
         </div>
 
-        <div class="row p-1 mb-5">
+        <div class="row p-1 mb-4">
             <div class="col-6 offset-6 col-md-6 offset-md-5">
-                <button id="calculate" class="btn btn-primary" type="button">Calculate my Age</button>
+                <button id="calculate" class="btn btn-primary p-2" type="button">Calculate my Age</button>
             </div>
         </div>
 
-        <div class="row ">
+        <div class="row">
             <div class="alert alert-success text-center col-12 col-md-6 offset-md-3"><span id="mon" class="">Your age
                     is: </span>
             </div>
